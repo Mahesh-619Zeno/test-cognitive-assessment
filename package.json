@@ -1,0 +1,32 @@
+{
+  "name": "test-cognitive-assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js src/test/features/**/*.feature"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mahesh-619Zeno/test-cognitive-assessment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Mahesh-619Zeno/test-cognitive-assessment/issues"
+  },
+  "homepage": "https://github.com/Mahesh-619Zeno/test-cognitive-assessment#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.2.1",
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.2.0",
+    "multiple-cucumber-html-reporter": "^4.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}
