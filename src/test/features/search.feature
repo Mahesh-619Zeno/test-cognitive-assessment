@@ -1,5 +1,7 @@
+@sanity
 Feature: Assessment Search
 
+  @test
   Scenario: Search assessment successfully
     Given User is on home page
     When User clicks on Explore Assessment
