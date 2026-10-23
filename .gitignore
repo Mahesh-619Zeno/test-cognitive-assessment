@@ -5,3 +5,4 @@ screenshots/
 .env
 cookies.json
 auth.json
+storage/
