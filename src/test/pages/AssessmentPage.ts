@@ -1,14 +1,13 @@
 import { expect, Page } from "@playwright/test";
 
-export default class HomePage {
+export default class AssessmentPage {
 
     constructor(private page: Page) {}
 
-    private homePageHeading = "//h1[text()='Welcome to the Cognitive Assessment']";
-    private exploreAssessmentBtn = "//button[text()='Explore Assessment']";
-    private selectAssessmentText = "//*[text()='Select Assessment']";
+    private homePageHeading = "//h1[text()='Welcome to Enterprise Automation Composer']";
+    private exploreAssessmentBtn = "//h2[text()='Assessment']/../..//button[text()='Select']";
+    private selectAssessmentText = "//*[text()='My Assessments']";
     private searchInput = "//input[@placeholder='Search assessments...']";
-    private searchResult = "//h2[text()='MSA Contract Compliance Validation']";
 
     async validateHomePage() {
         await expect(

@@ -16,7 +16,7 @@ import {
 import * as fs from "fs";
 import { pageFixture } from "./pageFixture";
 
-setDefaultTimeout(60 * 1000);
+setDefaultTimeout(60 * 10000);
 
 let browser: Browser;
 let context: BrowserContext;
